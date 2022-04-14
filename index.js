@@ -3,7 +3,7 @@ const res = require('express/lib/response')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' })
+  res.send({ buy: 'buddy' })
 })
 
 const PORT = process.env.PORT || 5000
